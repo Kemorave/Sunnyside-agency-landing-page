@@ -12,7 +12,7 @@ function App() {
         return;
       setDropDown(false);
     }}>
-      <header  className="flex  flex-col h-[29rem] bg-bottom bg-cover 
+      <header  className="flex  flex-col h-[29rem] lg:h-[38rem] bg-bottom bg-cover 
   bg-no-repeat   bg-[url('../public/images/mobile/image-header.jpg')]
       sm:bg-[url('../public/images/desktop/image-header.jpg')]">
         <div className="p-10  flex items-center justify-between">
