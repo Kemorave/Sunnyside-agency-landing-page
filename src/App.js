@@ -85,9 +85,9 @@ function App() {
               title='Stand out to the right audience'
               flavor='bg-[#ffcaca] '
               activeFlavor='group-hover:bg-[#FF5D5D]' />
-            <ImageCard background="bg-[url('../publicimages/desktop/image-graphic-design.jpg')]" flavor='text-[#004939]'
+            <ImageCard background="bg-[url('../public/images/desktop/image-graphic-design.jpg')]" flavor='text-[#004939]'
               title='Graphic design' subtitle=' Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.' />
-            <ImageCard background="bg-[url('../publicimages/desktop/image-photography.jpg')]" flavor='text-[#003D66]'
+            <ImageCard background="bg-[url('../public/images/desktop/image-photography.jpg')]" flavor='text-[#003D66]'
               title='Photography'
               subtitle='Increase your credibility by getting the most stunning, high-quality photos that improve your business image.' />
           </div>
