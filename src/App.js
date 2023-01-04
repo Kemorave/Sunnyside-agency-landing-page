@@ -13,10 +13,10 @@ function App() {
       setDropDown(false);
     }}>
       <header  className="flex  flex-col h-[29rem] lg:h-[38rem] bg-bottom bg-cover 
-  bg-no-repeat   bg-[url('../public/images/mobile/image-header.jpg')]
-      sm:bg-[url('../public/images/desktop/image-header.jpg')]">
+  bg-no-repeat   bg-[url('../publicimages/mobile/image-header.jpg')]
+      sm:bg-[url('../publicimages/desktop/image-header.jpg')]">
         <div className="p-10  flex items-center justify-between">
-          <img  src={'/images/logo.svg'} alt="logo" />
+          <img  src={'images/logo.svg'} alt="logo" />
           <div className='hidden md:flex justify-between flex-row '>
             <p className='header-nav'  >
               About
@@ -34,7 +34,7 @@ function App() {
               setDropDown(!isDropDownOpen);
             }}
             className='md:hidden'>
-            <img alt='but' src='/images/icon-hamburger.svg' />
+            <img alt='but' src='images/icon-hamburger.svg' />
           </button>
         </div>
         <div className='static'>
@@ -66,7 +66,7 @@ function App() {
             <p className="text-white text-center text-4xl tracking-widest uppercase font-bold font-['Fraunces']">
               We are creatives
             </p>
-            <img alt='arrow' className='h-[5rem]' src={'/images/icon-arrow-down.svg'} />
+            <img alt='arrow' className='h-[5rem]' src={'images/icon-arrow-down.svg'} />
           </div>
         </div>
 
@@ -74,20 +74,20 @@ function App() {
       <main>
         <section>
           <div className='grid grid-cols-1   sm:grid-cols-2 '>
-            <img className='  sm:hidden object-cover h-full' alt='scws' src='/images/desktop/image-transform.jpg' />
+            <img className='  sm:hidden object-cover h-full' alt='scws' src='images/desktop/image-transform.jpg' />
             <TextCard subtitle='We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.'
               title='Transform your brand'
               flavor='bg-[#FEFFA6] '
               activeFlavor='group-hover:bg-[#FFEF11]' />
-            <img className=' hidden sm:block object-cover h-full' alt='scws' src='/images/desktop/image-transform.jpg' />
-            <img className='  object-cover h-full' alt='scws' src='/images/desktop/image-stand-out.jpg' />
+            <img className=' hidden sm:block object-cover h-full' alt='scws' src='images/desktop/image-transform.jpg' />
+            <img className='  object-cover h-full' alt='scws' src='images/desktop/image-stand-out.jpg' />
             <TextCard subtitle='Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.'
               title='Stand out to the right audience'
               flavor='bg-[#ffcaca] '
               activeFlavor='group-hover:bg-[#FF5D5D]' />
-            <ImageCard background="bg-[url('../public/images/desktop/image-graphic-design.jpg')]" flavor='text-[#004939]'
+            <ImageCard background="bg-[url('../publicimages/desktop/image-graphic-design.jpg')]" flavor='text-[#004939]'
               title='Graphic design' subtitle=' Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.' />
-            <ImageCard background="bg-[url('../public/images/desktop/image-photography.jpg')]" flavor='text-[#003D66]'
+            <ImageCard background="bg-[url('../publicimages/desktop/image-photography.jpg')]" flavor='text-[#003D66]'
               title='Photography'
               subtitle='Increase your credibility by getting the most stunning, high-quality photos that improve your business image.' />
           </div>
@@ -96,17 +96,17 @@ function App() {
           <p className="mt-24 tracking-widest uppercase font-bold font-['Fraunces'] text-l text-gray-500 text-center "> Client testimonials</p>
           <div className='flex sm:flex-row flex-col mb-28 gap-5 justify-center mt-10'>
             <Testimonial
-              image='/images/image-emily.jpg'
+              image='images/image-emily.jpg'
               name='Emily R.'
               job='Marketing Director'
               lable='We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.' />
             <Testimonial
-              image='/images/image-thomas.jpg'
+              image='images/image-thomas.jpg'
               name='Thomas S.'
               job='Chief Operating Officer'
               lable='Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.' />
             <Testimonial
-              image='/images/image-jennie.jpg'
+              image='images/image-jennie.jpg'
               name='Jennie F.'
               job='Business Owner'
               lable='Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!' />
@@ -115,10 +115,10 @@ function App() {
         <section>
           <div className='grid grid-cols-2 grid-rows-2
            sm:grid-cols-4 sm:grid-rows-none items-center'>
-            <img alt='milk' src='/images/desktop/image-gallery-milkbottles.jpg' />
-            <img alt='milk' src='/images/desktop/image-gallery-orange.jpg' />
-            <img alt='milk' src='/images/desktop/image-gallery-cone.jpg' />
-            <img alt='milk' src='/images/desktop/image-gallery-sugarcubes.jpg' />
+            <img alt='milk' src='images/desktop/image-gallery-milkbottles.jpg' />
+            <img alt='milk' src='images/desktop/image-gallery-orange.jpg' />
+            <img alt='milk' src='images/desktop/image-gallery-cone.jpg' />
+            <img alt='milk' src='images/desktop/image-gallery-sugarcubes.jpg' />
           </div>
         </section>
         <footer className='flex gap-5 flex-col pt-10 items-center bg-[#86f0d9]'>
