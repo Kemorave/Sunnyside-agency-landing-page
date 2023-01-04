@@ -13,8 +13,8 @@ function App() {
       setDropDown(false);
     }}>
       <header  className="flex  flex-col h-[29rem] lg:h-[38rem] bg-bottom bg-cover 
-  bg-no-repeat   bg-[url('../publicimages/mobile/image-header.jpg')]
-      sm:bg-[url('../publicimages/desktop/image-header.jpg')]">
+  bg-no-repeat   bg-[url('../public/images/mobile/image-header.jpg')]
+      sm:bg-[url('../public/images/desktop/image-header.jpg')]">
         <div className="p-10  flex items-center justify-between">
           <img  src={'images/logo.svg'} alt="logo" />
           <div className='hidden md:flex justify-between flex-row '>
